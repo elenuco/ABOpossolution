@@ -18,7 +18,10 @@
           <div id="ModalMapPreview" style="width:100%; height:400px;"></div>
           <!----latitud y longitud---->
           <div class="form-group">
-           <label for="exampleInputEm"
+           <label for="exampleInputPassword1">Lat.:</label>
+           <asp:TextBox ID="txtLat" Text="20.938297181414647" CssClass="form-control" runat="server"><asp:TextBox>
+           <label for="exampleInputPassword1">Long.:</label>
+            <asp:TextBox ID="txtLat" Text="-89.61501516379462" CssClass="form-control" runat="server"><asp:TextBox>
           </div>
      </div>
       </div>
